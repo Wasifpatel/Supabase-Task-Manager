@@ -1,4 +1,5 @@
-import { useState,useEffect,ChangeEvent, type FormEvent } from "react"
+import { useState } from "react";
+import type { ChangeEvent, FormEvent } from "react";
 import { supabase } from "../supabase-client";
 
 const Auth = () => {
